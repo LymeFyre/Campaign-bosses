@@ -1,2 +1,2 @@
-# Campaign-bosses
-A Mindustry mod
+###### A Mindustry mod in development
+adds custom campaign bosses
