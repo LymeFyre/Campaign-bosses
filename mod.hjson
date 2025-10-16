@@ -1,0 +1,9 @@
+{
+  name: Campaign-bosses
+  displayName: Custom campaign bosses
+  author: @incendiarytoaster on discord
+  repo: LymeFyre/Campaign-bosses
+  description: Adds powerful, unique, non begginer-friendly custom bosses for campaign maps. Currently unfinished.
+  version: 0.0
+  minGameVersion: 152.2
+}
