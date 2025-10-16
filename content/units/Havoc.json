@@ -1,0 +1,57 @@
+{
+  "type": "mech",
+  "name": "Havoc",
+  "description": "Shoots front bullets and flanking missiles. Occasionally bursts into bullets. Custom boss made for Ground Zero",
+  "speed": 0.25,
+  "health": 900,
+  "hitSize": 16,
+  "armor": 2,
+  "weapons": [
+    {
+      "name": "havoc-weapon",
+      "reload": 24,
+      "x": 4,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 18,
+        "width": 11,
+        "height": 13,
+        "speed": 2,
+        "lifetime": 80,
+        "intervalBullet": {
+          "type": "MissileBulletType",
+          "splashDamage": 12,
+          "speed": 3,
+          "lifetime": 80,
+          "homingDelay": 20,
+          "homingPower": 0.3,
+          "homingRange": 150,
+          },
+        "bulletInterval": 999,
+        "intervalRandomSpread": 7.5,
+        "intervalAngle": 180,
+      }
+    },
+    {
+      "reload": 540,
+      "mirror": false,
+      "controllable": false, 
+      "autoTarget": true,
+      "shootOnDeath": true,
+      "shootCone": 180,
+      "shoot":{
+        "type": "ShootSpread",
+        "spread": 22.5,
+        "shots": 16,
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 21,
+        "width": 9,
+        "height": 11,
+        "speed": 6,
+        "lifetime": 15,
+      }
+    }
+  ]
+}

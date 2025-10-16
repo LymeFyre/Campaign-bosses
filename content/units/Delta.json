@@ -1,0 +1,50 @@
+{
+  "type": "flying",
+  "name": "Delta",
+  "description": "Shoots at ground targets and launches missiles",
+  "speed": 3,
+  "accel": 0.012,
+  "drag": 0.03,
+  "health": 55,
+  "hitSize": 7,
+  "flying": true,
+  "faceTarget": false,
+  "circleTarget": true,
+  "weapons": [
+    {
+      "reload": 40,
+      "shootOnDeath": true,
+      "shootCone": 180,
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 16,
+        "splashDamage": 8,
+        "splashDamageRadius": 8,
+        "width": 6,
+        "height": 6,
+        "speed": 4,
+        "lifetime": 20,
+        "frontColor": "bf92f9",
+        "backColor": "6d56bf",
+        "status": "sapped",
+        "statusDuration": 120,
+        "homingPower": 0.1,
+        "homingRange": 80
+      },
+    }
+    {
+      "reload": 60,
+      "shootOnDeath": true,
+      "rotate": true,
+      "rotateSpeed": 2,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 9,
+        "width": 4,
+        "height": 6,
+        "speed": 6,
+        "lifetime": 8,
+      }
+    }
+  ]
+}
