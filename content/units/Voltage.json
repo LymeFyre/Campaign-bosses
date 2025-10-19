@@ -1,0 +1,86 @@
+{
+  "type": "mech",
+  "name": "Voltage",
+  "description": "Shoots precise electrical shots at ground targets over a large area and lobs laser bombs around it. Rapidly shocks units in range. Custom boss made for Stained Mountains",
+  "speed": 0.18,
+  "health": 3100,
+  "hitSize": 24,
+  "armor": 9,
+  "abilities": [
+    {
+      "type": "EnergyFieldAbility",
+      "damage": 36,
+      "reload": 12,
+      "maxTargets": 1,
+      "range": 80,
+      "hitBuildings": false,
+    },
+    ],
+  "weapons": [
+    {
+      "name": "-weapon",
+      "reload": 75,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 37,
+        "width": 8,
+        "height": 8,
+        "speed": 4,
+        "lifetime": 60,
+        "frontColor": "98ffa9",
+        "backColor": "98ffa9",
+        "collidesAir": false,
+        "fragOnHit": false,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "BulletType",
+          "speed": 0,
+          "collides": false,
+          "hittable": false,
+          "lifetime": 90,
+          "bulletInterval": 6,
+          "intervalBullet": {
+            "type": "LightningBulletType",
+            "damage": 14,
+            "lightningColor": "98ffa9",
+          },
+        },
+      },
+    },
+    {
+      "reload": 540,
+      "mirror": false,
+      "controllable": false, 
+      "autoTarget": true,
+      "shootCone": 180,
+      "inaccuracy": 360,
+      "velocityRnd": 0.5,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "splashDamage": 175,
+        "splashDamageRadius": 80,
+        "width": 8,
+        "height": 8,
+        "lifetime": 120,
+        "speed": 0.7,
+        "fragBullet": 4,
+        "fragSpread": 90,
+        "fragOffsetMax": 1,
+        "fragRandomSpread": 0,
+        "fragBullet":{
+          "type": "LaserBulletType",
+          "damage": 45,
+          "sideAngle": 45,
+          "sideWidth": 1,
+          "sideLength": 70,
+          "length": 135,
+          "colors": [
+              "e6ffeb"
+              "98ffa9"
+              "ffffff"
+          ]
+        }
+      }
+    }
+  ]
+}
