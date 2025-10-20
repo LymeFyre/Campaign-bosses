@@ -163,6 +163,7 @@
         "trailColor": "404040",
         "trailLength": 6,
         "trailWidth": 1.2,
+      },
     },
     {
       "reload": 720,
