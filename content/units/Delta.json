@@ -46,7 +46,6 @@
         "despawnEffect": "none",
         "width": 0.5,
         "lifetime": 10,
-        "knockback": -0.64;
       }
     }
   ]
