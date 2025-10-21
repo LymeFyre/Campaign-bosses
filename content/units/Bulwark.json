@@ -8,12 +8,12 @@
   "armor": 8,
   "weapons": [
     {
-      "name": "-weapon",
-      "reload": 150,
+      "name": "bulwark-weapon",
+      "reload": 180,
       "bullet": {
         "type": "ArtilleryBulletType",
-        "splashDamage": 65,
-        "splashDamageRadius": 48,
+        "splashDamage": 57,
+        "splashDamageRadius": 40,
         "width": 16,
         "height": 16,
         "speed": 2.5,
@@ -21,11 +21,11 @@
         "fragBullet": {
           "type": "BasicBulletType",
           "speed": 3,
-          "splashDamage": 27,
-          "splashDamageRadius": 32,
-          "height": 8,
-          "width": 8,
-          "lifetime": 20,
+          "splashDamage": 24,
+          "splashDamageRadius": 30,
+          "height": 16,
+          "width": 16,
+          "lifetime": 10,
         },
         "fragBullets": 6,
         "fragRandomSpread": 10,
@@ -41,19 +41,19 @@
       "inaccuracy": 360,
       "shoot": {
         "shots": 12,
-        "shotDelay": 10,
+        "shotDelay": 15,
         "firstShotDelay": 390,
       },
       "velocityRnd": 0.25,
       "scaleLifetimeOffset": 0.25,
       "bullet": {
         "type": "ArtilleryBulletType",
-        "splashDamage": 95,
+        "splashDamage": 145,
         "splashDamageRadius": 24,
         "width": 0,
         "height": 0,
-        "lifetime": 40,
-        "speed": 2,
+        "lifetime": 20,
+        "speed": 5,
       }
     }
   ]
