@@ -22,8 +22,18 @@
     {
       "type": "UnitSpawnAbility",
       "unit": "Delta",
-      "spawnTime": "900",
-    }
+      "spawnTime": "1199",
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "Delta",
+      "spawnTime": "1200",
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "Delta",
+      "spawnTime": "1201",
+    },
     ],
   "weapons": [
     {
@@ -31,6 +41,7 @@
       "reload": 90,
       "y": 8,
       "mirror": false,
+      "inaccuracy": 30,
       "shoot": {
         "shots": 36,
         "shotDelay": 1,
@@ -44,6 +55,7 @@
         "shrinkY": 0.2,
         "shrinkX": 0.2,
         "speed": 8,
+        "drag": 0.1,
         "lifetime": 60,
         "hitEffect": "sapExplosion",
         "frontColor": "bf92f9",
