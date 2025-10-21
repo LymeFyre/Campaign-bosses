@@ -10,16 +10,16 @@
     {
       "type": "EnergyFieldAbility",
       "damage": 36,
-      "reload": 12,
+      "reload": 16,
       "maxTargets": 1,
-      "range": 80,
+      "range": 100,
       "hitBuildings": false,
     },
     ],
   "weapons": [
     {
-      "name": "-weapon",
-      "reload": 75,
+      "name": "voltage-weapon",
+      "reload": 80,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 37,
@@ -30,7 +30,8 @@
         "frontColor": "98ffa9",
         "backColor": "98ffa9",
         "collidesAir": false,
-        "fragOnHit": false,
+        "fragOnHit": true,
+        "despawnHit": true,
         "fragBullets": 1,
         "fragBullet": {
           "type": "BulletType",
@@ -43,6 +44,7 @@
             "type": "LightningBulletType",
             "damage": 14,
             "lightningColor": "98ffa9",
+            "lightningLength": 24,
           },
         },
       },
@@ -54,7 +56,7 @@
       "autoTarget": true,
       "shootCone": 180,
       "inaccuracy": 360,
-      "velocityRnd": 0.5,
+      "velocityRnd": 0.6,
       "bullet": {
         "type": "ArtilleryBulletType",
         "splashDamage": 175,
@@ -62,7 +64,7 @@
         "width": 8,
         "height": 8,
         "lifetime": 120,
-        "speed": 0.7,
+        "speed": 0.8,
         "fragBullet": 4,
         "fragSpread": 90,
         "fragOffsetMax": 1,
@@ -74,11 +76,6 @@
           "sideWidth": 1,
           "sideLength": 70,
           "length": 135,
-          "colors": [
-              "e6ffeb"
-              "98ffa9"
-              "ffffff"
-          ]
         }
       }
     }
