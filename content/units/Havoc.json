@@ -8,7 +8,7 @@
   "armor": 2,
   "weapons": [
     {
-      "name": "-weapon",
+      "name": "havoc-weapon",
       "reload": 22,
       "x": 4,
       "bullet": {
