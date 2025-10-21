@@ -1,21 +1,24 @@
 {
   "type": "flying",
   "name": "Delta",
-  "description": "Shoots at ground targets and launches missiles",
-  "speed": 3,
-  "accel": 0.012,
+  "description": "Launches missiles and saps target",
+  "speed": 4,
+  "rotateSpeed": 10,
+  "accel": 0.024,
   "drag": 0.03,
-  "health": 65,
-  "hitSize": 7,
+  "health": 85,
+  "hitSize": 6,
   "flying": true,
-  "faceTarget": false,
+  "faceTarget": true,
   "circleTarget": true,
   "weapons": [
     {
-      "reload": 40,
+      "reload": 60,
       "shootOnDeath": true,
+      "rotate": true,
+      "rotateSpeed": 3.6,
       "shootCone": 180,
-      "bullet": {
+        "bullet": {
         "type": "MissileBulletType",
         "damage": 16,
         "splashDamage": 8,
@@ -33,17 +36,17 @@
       },
     },
     {
-      "reload": 60,
-      "shootOnDeath": true,
-      "rotate": true,
-      "rotateSpeed": 2,
+      "reload": 20,
       "bullet": {
-        "type": "BasicBulletType",
-        "damage": 9,
-        "width": 4,
-        "height": 6,
-        "speed": 6,
-        "lifetime": 8,
+        "type": "SapBulletType",
+        "sapStrength": 0.5,
+        "length": 24,
+        "damage": 16,
+        "color": "bf92f9",
+        "despawnEffect": "none",
+        "width": 0.5,
+        "lifetime": 10,
+        "knockback": -0.64;
       }
     }
   ]
