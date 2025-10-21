@@ -3,13 +3,13 @@
   "name": "Blitz",
   "description": "Fires incendiary bullets on nearby targets. Naturally burns the surrounding area. Custom boss made for Frozen Forest",
   "speed": 0.225,
-  "health": 1000,
-  "hitSize": 24,
+  "health": 1100,
+  "hitSize": 8,
   "armor": 5,
   "weapons": [
     {
-      "name": "-weapon",
-      "reload": 64,
+      "name": "blitz-weapon",
+      "reload": 48,
       "x": 8,
       "y": 8,
       "shoot": {
@@ -21,14 +21,14 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 27,
-        "width": 7,
-        "height": 11,
+        "width": 8,
+        "height": 12,
         "speed": 4,
         "lifetime": 30,
         "frontColor": "f8ad42",
         "backColor": "f68021",
         "status": "burning",
-        "statusDuration": 240,
+        "statusDuration": 120,
       },
     },
     {
@@ -37,16 +37,14 @@
       "controllable": false, 
       "autoTarget": true,
       "shootCone": 180,
-      "shootEffect": {
-        "type": "ExplosionEffect"
-      },
+      "shootEffect": "ExplosionEffect",
       "bullet": {
         "type": "ExplosionBulletType",
-        "splashDamage": 75,
-        "splashDamageRadius": 40,
+        "splashDamage": 175,
+        "splashDamageRadius": 60,
         "incendChance": 1,
         "incendAmmount": 1,
-        "incendSpread": 40,
+        "incendSpread": 60,
         "status": "burning",
         "statusDuration": 480,
       }
