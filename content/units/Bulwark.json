@@ -8,7 +8,7 @@
   "armor": 8,
   "weapons": [
     {
-      "name": "bulwark-weapon",
+      "name": "Bulwark-weapon",
       "reload": 180,
       "bullet": {
         "type": "ArtilleryBulletType",
@@ -41,7 +41,7 @@
       "inaccuracy": 360,
       "shoot": {
         "shots": 12,
-        "shotDelay": 15,
+        "shotDelay": 5,
         "firstShotDelay": 390,
       },
       "velocityRnd": 0.25,
@@ -52,8 +52,8 @@
         "splashDamageRadius": 24,
         "width": 0,
         "height": 0,
-        "lifetime": 20,
-        "speed": 5,
+        "lifetime": 10,
+        "speed": 10,
       }
     }
   ]
