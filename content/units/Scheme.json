@@ -37,7 +37,7 @@
     ],
   "weapons": [
     {
-      "reload": 90,
+      "reload": 180,
       "y": 8,
       "mirror": false,
       "inaccuracy": 30,
