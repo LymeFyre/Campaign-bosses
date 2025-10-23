@@ -63,6 +63,7 @@
       "controllable": false, 
       "autoTarget": true,
       "shootCone": 180,
+      "shootOnDeath": true,
       "shoot": {
         "type": "ShootSpread",
         "spread": 20,
