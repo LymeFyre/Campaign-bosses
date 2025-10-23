@@ -16,7 +16,7 @@
         "type": "ShootAlternate",
         "shots": 3,
         "barrels": 3,
-        "spacing": 7,
+        "spacing": 6,
       },
       "bullet": {
         "type": "BasicBulletType",
@@ -29,15 +29,17 @@
         "backColor": "f68021",
         "status": "burning",
         "statusDuration": 120,
+        "trailEffect": "burning",
       },
     },
     {
-      "reload": 420,
+      "reload": 480,
       "mirror": false,
-      "controllable": false, 
+      "controllable": false,
       "autoTarget": true,
       "shootCone": 180,
       "shootEffect": "ExplosionEffect",
+      "shootOnDeath": true,
       "bullet": {
         "type": "ExplosionBulletType",
         "splashDamage": 175,
