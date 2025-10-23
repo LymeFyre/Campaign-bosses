@@ -9,7 +9,7 @@
   "faceTarget": false,
   "weapons": [
     {
-      "name": "tempest-weapon",
+      "name": "Tempest-weapon",
       "x": 12,
       "y": 16,
       "controllable": false,
@@ -35,7 +35,7 @@
       },
     },
     {
-      "name": "tempest-weapon",
+      "name": "Tempest-weapon",
       "x": 9,
       "y": 20,
       "controllable": false,
@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "tempest-weapon",
+      "name": "Tempest-weapon",
       "x": 0,
       "y": 24,
       "controllable": false,
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "tempest-weapon",
+      "name": "Tempest-weapon",
       "x": -9,
       "y": 20,
       "controllable": false,
@@ -113,7 +113,7 @@
       }
     },
     {
-      "name": "tempest-weapon",
+      "name": "Tempest-weapon",
       "x": -12,
       "y": 16,
       "controllable": false,
@@ -139,7 +139,7 @@
       }
     },
     {
-      "name": "tempest-weapon-large",
+      "name": "Tempest-weapon-large",
       "rotate": true,
       "mirror": false,
       "reload": 30,
