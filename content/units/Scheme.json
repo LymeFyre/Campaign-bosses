@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "name": "Scheme",
-  "description": "Sprays close range spore bombs to ground targets and sapping bullets against air targets. Manufactures Delta fighter drones. Custom boss made for Biomass Synthesis Facility",
+  "description": "Sprays close range spore bombs to ground targets and bullets. Manufactures Delta fighter drones. Custom boss made for Biomass Synthesis Facility",
   "speed": 0.24,
   "health": 2600,
   "hitSize": 24,
@@ -37,7 +37,6 @@
     ],
   "weapons": [
     {
-      "name": "-weapon",
       "reload": 90,
       "y": 8,
       "mirror": false,
@@ -56,14 +55,14 @@
         "shrinkX": 0.2,
         "speed": 8,
         "drag": 0.1,
-        "lifetime": 60,
-        "hitEffect": "sapExplosion",
+        "lifetime": 45,
+        "hitEffect": "explosion",
         "frontColor": "bf92f9",
         "backColor": "6d56bf",
       },
     },
     {
-      "reload": 240,
+      "reload": 270,
       "mirror": false,
       "shoot": {
         "type": "ShootSpread",
@@ -73,14 +72,13 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 45,
+        "damage": 75,
         "width": 14,
         "height": 20,
         "lifetime": 40,
         "speed": 4,
         "frontColor": "bf92f9",
         "backColor": "6d56bf",
-        "collidesGround": false,
       }
     }
   ]
