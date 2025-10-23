@@ -9,8 +9,8 @@
   "abilities": [
     {
       "type": "EnergyFieldAbility",
-      "damage": 36,
-      "reload": 16,
+      "damage": 20,
+      "reload": 10,
       "maxTargets": 1,
       "range": 100,
       "hitBuildings": false,
@@ -18,7 +18,7 @@
     ],
   "weapons": [
     {
-      "name": "voltage-weapon",
+      "name": "Voltage-weapon",
       "reload": 80,
       "bullet": {
         "type": "BasicBulletType",
