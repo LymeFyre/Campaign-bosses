@@ -3,12 +3,12 @@
   "name": "Havoc",
   "description": "Shoots front bullets and flanking missiles. Occasionally bursts into bullets. Custom boss made for Ground Zero",
   "speed": 0.3,
-  "health": 650,
+  "health": 750,
   "hitSize": 16,
   "armor": 2,
   "weapons": [
     {
-      "name": "havoc-weapon",
+      "name": "Havoc-weapon",
       "reload": 22,
       "x": 4,
       "bullet": {
@@ -33,7 +33,7 @@
       },
     },
     {
-      "reload": 540,
+      "reload": 600,
       "mirror": false,
       "controllable": false, 
       "autoTarget": true,
@@ -50,8 +50,10 @@
         "damage": 27,
         "width": 9,
         "height": 11,
-        "speed": 1.5,
-        "lifetime": 60,
+        "speed": 4.5,
+        "lifetime": 15,
+        "pierce": true,
+        "pierceCap": 2,
       }
     }
   ]
