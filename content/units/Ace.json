@@ -3,7 +3,7 @@
   "name": "Ace",
   "description": "Shoots regular bullets and large shattering bullets. Periodically releases a flurry of missiles. Custom boss made for Craters",
   "flying": true,
-  "speed": 0.42.
+  "speed": 0.42,
   "health": 1650,
   "hitSize": 18,
   "armor": 3,
@@ -71,8 +71,9 @@
       },
       "bullet": {
         "type": "MissileBulletType",
+        "damage": 27,
         "splashDamage": 45,
-        "splashDamageRadius": 16,
+        "splashDamageRadius": 12,
         "width": 8,
         "height": 10,
         "shrinkY": 0,
