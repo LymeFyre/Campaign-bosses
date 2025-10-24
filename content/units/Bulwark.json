@@ -5,11 +5,13 @@
   "speed": 0.225,
   "health": 2900,
   "hitSize": 24,
+  "targetAir": false,
   "armor": 8,
   "weapons": [
     {
       "name": "Bulwark-weapon",
       "reload": 180,
+      "x": 12,
       "bullet": {
         "type": "ArtilleryBulletType",
         "splashDamage": 65,
