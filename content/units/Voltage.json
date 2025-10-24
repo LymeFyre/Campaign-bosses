@@ -45,7 +45,7 @@
             "type": "LightningBulletType",
             "damage": 14,
             "lightningColor": "98ffa9",
-            "lightningLength": 3,
+            "lightningLength": 4,
           },
         },
       },
