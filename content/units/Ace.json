@@ -23,7 +23,7 @@
         "speed": 8,
         "lifetime": 20,
         "recoil": 5,
-        "hitEffect": "flakExplosion",
+        "hitEffect": "fragExplosion",
         "frontColor": "ffffff",
         "backColor": "b9c9df",
         "keepVelocity": false,
