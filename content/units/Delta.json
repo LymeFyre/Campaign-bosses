@@ -1,9 +1,9 @@
 {
   "type": "flying",
   "name": "Delta",
-  "description": "Launches missiles and saps target",
-  "speed": 3.5,
-  "rotateSpeed": 36,
+  "description": "Launches missiles and saps target.",
+  "speed": 2.2,
+  "rotateSpeed": 5,
   "accel": 0.024,
   "drag": 0.03,
   "health": 85,
@@ -14,6 +14,7 @@
   "weapons": [
     {
       "reload": 60,
+      "x": 0,
       "shootOnDeath": true,
       "rotate": true,
       "rotateSpeed": 3.6,
@@ -33,15 +34,17 @@
         "statusDuration": 120,
         "homingPower": 0.1,
         "homingRange": 80,
+        "trailColor": "6d56bf",
       },
     },
     {
-      "reload": 20,
+      "reload": 6,
+      "x": 0,
       "bullet": {
         "type": "SapBulletType",
         "sapStrength": 0.5,
         "length": 24,
-        "damage": 16,
+        "damage": 9,
         "color": "bf92f9",
         "despawnEffect": "none",
         "width": 0.5,

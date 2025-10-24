@@ -2,9 +2,9 @@
   "type": "mech",
   "name": "Blitz",
   "description": "Fires incendiary bullets on nearby targets. Naturally burns the surrounding area. Custom boss made for Frozen Forest",
-  "speed": 0.225,
-  "health": 1100,
-  "hitSize": 8,
+  "speed": 0.3,
+  "health": 1200,
+  "hitSize": 9,
   "armor": 5,
   "weapons": [
     {
@@ -30,10 +30,13 @@
         "status": "burning",
         "statusDuration": 120,
         "trailEffect": "burning",
+        "trailChance": 1,
       },
     },
     {
-      "reload": 480,
+      "reload": 600,
+      "x": 0,
+      "y": 0,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
@@ -41,8 +44,8 @@
       "shootEffect": "ExplosionEffect",
       "shootOnDeath": true,
       "bullet": {
-        "type": "ExplosionBulletType",
-        "splashDamage": 175,
+        "type": "BulletType",
+        "splashDamage": 225,
         "splashDamageRadius": 60,
         "incendChance": 1,
         "incendAmmount": 1,

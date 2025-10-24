@@ -2,14 +2,14 @@
   "type": "mech",
   "name": "Bulwark",
   "description": "Lobs cluster bombs and bombards the area. Custom boss made for Ruinous Shores",
-  "speed": 0.2,
-  "health": 2200,
+  "speed": 0.25,
+  "health": 2900,
   "hitSize": 24,
   "armor": 8,
   "weapons": [
     {
       "name": "Bulwark-weapon",
-      "reload": 180,
+      "reload": 140,
       "bullet": {
         "type": "ArtilleryBulletType",
         "splashDamage": 57,
@@ -33,27 +33,28 @@
       },
     },
     {
-      "reload": 780,
+      "reload": 600,
+      "x": 0,
       "mirror": false,
       "controllable": false, 
       "autoTarget": true,
       "shootCone": 180,
       "inaccuracy": 360,
       "shoot": {
-        "shots": 12,
-        "shotDelay": 5,
-        "firstShotDelay": 390,
+        "shots": 16,
+        "shotDelay": 10,
+        "firstShotDelay": 300,
       },
       "velocityRnd": 0.25,
-      "scaleLifetimeOffset": 0.25,
+      "scaleLifetimeOffset": 0.9,
       "bullet": {
         "type": "ArtilleryBulletType",
-        "splashDamage": 145,
+        "splashDamage": 165,
         "splashDamageRadius": 24,
         "width": 0,
         "height": 0,
-        "lifetime": 10,
-        "speed": 10,
+        "lifetime": 20,
+        "speed": 5,
       }
     }
   ]
