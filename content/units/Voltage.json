@@ -20,7 +20,7 @@
     {
       "name": "Voltage-weapon",
       "reload": 80,
-      "x": 12,
+      "x": 13,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 37,
@@ -45,7 +45,7 @@
             "type": "LightningBulletType",
             "damage": 14,
             "lightningColor": "98ffa9",
-            "lightningLength": 2,
+            "lightningLength": 3,
           },
         },
       },

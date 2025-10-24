@@ -10,7 +10,7 @@
   "weapons": [
     {
       "name": "Ace-weapon",
-      "reload": 270,
+      "reload": 240,
       "y": 4,
       "x": 0,
       "recoil": 3,
@@ -30,9 +30,9 @@
         "fragBullet": {
           "type": "BasicBulletType",
           "speed": 4,
-          "damage": 36,
-          "height": 17,
-          "width": 10,
+          "damage": 27,
+          "height": 16,
+          "width": 8,
           "shrinkY": 1,
           "lifetime": 20,
           "frontColor": "ffffff",
@@ -79,9 +79,8 @@
         "width": 8,
         "height": 10,
         "shrinkY": 0,
-        "lifetime": 25,
-        "speed": 4,
-        "accel": 0.001,
+        "lifetime": 50,
+        "speed": 2.5,
         "homingRange": 90,
         "homingDelay": 5,
         "homingPower": 1,

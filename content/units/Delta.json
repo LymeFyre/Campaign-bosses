@@ -6,7 +6,7 @@
   "rotateSpeed": 5,
   "accel": 0.024,
   "drag": 0.03,
-  "health": 85,
+  "health": 95,
   "hitSize": 5,
   "flying": true,
   "faceTarget": true,
