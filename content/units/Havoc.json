@@ -30,7 +30,7 @@
           "backColor": "f9c27a",
           "trailColor": "fff8e8",
           },
-        "bulletInterval": 61,
+        "bulletInterval": 81,
         "intervalRandomSpread": 1,
         "intervalAngle": 180,
       },
