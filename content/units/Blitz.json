@@ -31,7 +31,7 @@
         "trailEffect": "burning",
         "trailChance": 1,
         "pierce": true,
-        "pierceBuildings": true,
+        "pierceBuilding": true,
         "pierceCap": 3,
       },
     },
