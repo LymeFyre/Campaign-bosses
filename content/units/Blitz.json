@@ -10,7 +10,7 @@
     {
       "name": "Blitz-weapon",
       "reload": 90,
-      "x": 4,
+      "x": 5,
       "shoot": {
         "type": "ShootAlternate",
         "shots": 3,
