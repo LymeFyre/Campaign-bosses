@@ -45,7 +45,7 @@
     {
       "name": "mount-weapon",
       "reload": 8,
-      "x": 3,
+      "x": 6,
       "y": 3,
       "recoil": 0.3,
       "bullet": {
