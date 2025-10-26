@@ -11,6 +11,7 @@
       "name": "Blitz-weapon",
       "reload": 90,
       "x": 5,
+      "y": 0.5,
       "shoot": {
         "type": "ShootAlternate",
         "shots": 3,
@@ -36,24 +37,24 @@
       },
     },
     {
-      "reload": 600,
+      "reload": 60,
       "x": 0,
       "y": 0,
       "mirror": false,
       "controllable": false,
       "autoTarget": true,
       "shootCone": 180,
-      "shootEffect": "ExplosionEffect",
+      "shootEffect": "none",
       "shootOnDeath": true,
       "bullet": {
         "type": "BulletType",
-        "splashDamage": 225,
-        "splashDamageRadius": 60,
-        "incendChance": 1,
-        "incendAmmount": 1,
-        "incendSpread": 60,
+        "splashDamage": 50,
+        "splashDamageRadius": 40,
         "status": "burning",
-        "statusDuration": 480,
+        "statusDuration": 120,
+        "collides": false,
+        "lifetime": 1,
+        
       }
     }
   ]

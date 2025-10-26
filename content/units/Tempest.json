@@ -143,7 +143,8 @@
       "rotate": true,
       "mirror": false,
       "reload": 40,
-      "y": -6
+      "y": -6,
+      "x": 0,
       "shoot": {
         "type": "ShootSpread",
         "shots": 5,
@@ -167,7 +168,7 @@
       },
     },
     {
-      "reload": 480,
+      "reload": 600,
       "x": 0,
       "mirror": false,
       "controllable": false, 
@@ -175,17 +176,17 @@
       "shootCone": 180,
       "shootStatus": "fast",
       "shootStatusDuration": 240,
+      "inaccuracy": 360,
       "shoot": {
-        "type": "ShootSpread",
         "shots": 36,
-        "shotDelay": 1,
-        "spread": 100,
-        "firstShotDelay": 300,
+        "shotDelay": 2,
       },
       "bullet": {
         "type": "BasicBulletType",
         "splashDamage": 24,
         "splashDamageRadius": 12,
+        "width": 0,
+        "height": 0,
         "knockback": 3,
         "speed": 4,
         "accel": 0.025,

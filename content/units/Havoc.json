@@ -18,7 +18,8 @@
         "height": 10,
         "speed": 3,
         "lifetime": 60,
-        "intervalBullet": {
+        "spawnBullets": [
+          {
           "type": "MissileBulletType",
           "splashDamage": 12,
           "speed": 3,
@@ -29,10 +30,9 @@
           "frontColor": "fff8e8",
           "backColor": "f9c27a",
           "trailColor": "fff8e8",
+          "angleOffset": 180,
           },
-        "bulletInterval": 81,
-        "intervalRandomSpread": 1,
-        "intervalAngle": 180,
+        ],
       },
     },
     {
