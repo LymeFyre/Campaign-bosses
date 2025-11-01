@@ -1,0 +1,26 @@
+{
+  "type": "ground",
+  "name": "Mini crawler",
+  "hidden": true,
+  "speed": 1.5,
+  "health": 75,
+  "range": 20,
+  "hitSize": 4,
+  "aiController": "SuicideAI",
+  "weapons": [
+    {
+      "reload": 60,
+      "x": 0,
+      "mirror": false,
+      "shootOnDeath": true,
+      "shootCone": 180,
+      "targetUnderBlocks": false,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "hitEffect": "pulverize",
+        "splashDamageRadius": 22,
+        "splashDamage": 44,
+      }
+    }
+  ]
+}

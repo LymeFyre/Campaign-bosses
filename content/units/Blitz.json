@@ -1,15 +1,16 @@
 {
   "type": "mech",
   "name": "Blitz",
-  "description": "Fires incendiary bullets on nearby targets. Naturally burns the surrounding area. Custom boss made for Frozen Forest",
+  "description": "Fires piercing fire against targets. Naturally burns the surrounding area. Custom boss made for Frozen Forest",
   "speed": 0.25,
   "health": 1200,
   "hitSize": 9,
   "armor": 5,
+  "range": 75,
   "weapons": [
     {
       "name": "Blitz-weapon",
-      "reload": 90,
+      "reload": 75,
       "x": 5,
       "y": 0.5,
       "shoot": {
@@ -23,8 +24,8 @@
         "damage": 36,
         "width": 8,
         "height": 12,
-        "speed": 4,
-        "lifetime": 30,
+        "speed": 5,
+        "lifetime": 15,
         "frontColor": "f8ad42",
         "backColor": "f68021",
         "status": "burning",
@@ -39,22 +40,23 @@
     {
       "reload": 60,
       "x": 0,
-      "y": 0,
       "mirror": false,
-      "controllable": false,
-      "autoTarget": true,
-      "shootCone": 180,
-      "shootEffect": "none",
-      "shootOnDeath": true,
+      "alwaysShoot": true,
+      "shootEffect": "shootPyraFlame",
+      "shoot": {
+        "type": "ShootSpread",
+        "spread": 45,
+        "shots": 8,
+      },
       "bullet": {
         "type": "BulletType",
-        "splashDamage": 50,
+        "splashDamage": 10,
         "splashDamageRadius": 40,
         "status": "burning",
         "statusDuration": 120,
         "collides": false,
-        "lifetime": 1,
-        
+        "despawnHit": true,
+        "instantDisappear": true,
       }
     }
   ]

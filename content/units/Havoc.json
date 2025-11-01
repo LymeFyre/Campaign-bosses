@@ -6,11 +6,13 @@
   "health": 750,
   "hitSize": 16,
   "armor": 2,
+  "range": 180,
   "weapons": [
     {
       "name": "Havoc-weapon",
       "reload": 20,
       "x": 4,
+      "top": false,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 18,
@@ -39,10 +41,7 @@
       "reload": 600,
       "x": 0,
       "mirror": false,
-      "controllable": false, 
-      "autoTarget": true,
-      "shootOnDeath": true,
-      "shootCone": 180,
+      "alwaysShoot": true,
       "shoot":{
         "type": "ShootSpread",
         "spread": 22.5,
@@ -51,14 +50,29 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 27,
+        "damage": 36,
         "width": 10,
         "height": 12,
-        "speed": 4.5,
-        "lifetime": 15,
+        "speed": 3,
+        "lifetime": 30,
         "pierce": true,
         "pierceBuilding": true,
-        "pierceCap": 2,
+        "despawnEffect": "none",
+        "homingPower": 1,
+        "homingRange": 80,
+        "homingDelay": 29,
+        "fragOnHit": false,
+        "fragBullets": 1,
+        "fragRandomSpread": 360,
+        "fragVelocityMin": 1,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "damage": 27,
+          "width": 9,
+          "height": 11,
+          "speed": 4.5,
+          "lifetime": 30,
+        }
       }
     }
   ]
