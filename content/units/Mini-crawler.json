@@ -6,7 +6,7 @@
   "health": 75,
   "range": 20,
   "hitSize": 4,
-  "aiController": "SuicideAI",
+  "defaultController": "SuicideAI",
   "weapons": [
     {
       "reload": 60,
