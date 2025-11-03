@@ -1,0 +1,82 @@
+{
+  "type": "flying",
+  "name": "Ruination",
+  "description": "Sprays a barrage of large missiles that burst into slag and a stream of heavy bullets. Occasionally blinks forward with the help of phase technology. Custom boss made for Tar Fields",
+  "flying": true,
+  "speed": 0.3,
+  "health": 8000,
+  "hitSize": 32,
+  "armor": 3,
+  "weapons": [
+    {
+      "reload": 140,
+      "x": 12,
+      "mirror": true,
+      "shoot": {
+        "shots": 7,
+        "spread": 10,
+      }
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 24,
+        "splashDamage": 24,
+        "width": 12,
+        "height": 16,
+        "speed": 3,
+        "lifetime": 50,
+        "accel": 0.01,
+        "frontColor": "ffffff",
+        "backColor": "b9c9df",
+        "weaveMag": 4,
+        "weaveScale": 8,
+        "weaveRandom": false,
+        "keepVelocity": false,
+        "homingPower": 0,
+        "fragBullet": {
+          "type": "LiquidBulletType",
+          "liquid": "slag",
+          "speed": 1,
+          "damage": 12,
+          "orbSize": 3
+          "shrinkY": 1,
+          "lifetime": 48,
+          "puddleSize": 9,
+          "knockback": 0.9,
+          "statusDuration": 180,
+          "keepVelocity": false,
+        },
+        "fragBullets": 10,
+      },
+    },
+    {
+      "reload": 6,
+      "x": 0,
+      "y": 8,
+      "inaccuracy": 1,
+      "mirror": false,
+      "recoil": 0.5,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 5,
+        "damage": 37,
+        "width": 10,
+        "height": 12,
+        "lifetime": 35,
+      },
+    },
+    {
+      "reload": 600,
+      "x": 0,
+      "mirror": false,
+      "shootCone": 180,
+      "shootEffect": "teleport"
+      "shoot": {
+        "shotDelay": 60,
+      },
+      "bullet": {
+        "type": "EmptyBulletType",
+        "recoil": -100,
+      }
+    }
+  ]
+}

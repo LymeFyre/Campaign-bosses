@@ -30,6 +30,7 @@
           "type": "BulletType",
           "splashDamage": 575,
           "splashDamageRadius": 80,
+          "instantDisappear": true,
           "despawnEffect": "massiveExplosion",
           "despawnHit": true,
           "collidesAir": false,
