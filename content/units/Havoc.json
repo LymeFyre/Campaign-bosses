@@ -14,16 +14,16 @@
       "x": 4,
       "top": false,
       "shoot": {
-        "shots": 30,
-        "shotDelay": 10
+        "shots": 24,
+        "shotDelay": 4,
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 18,
-        "width": 8,
-        "height": 10,
-        "speed": 3,
-        "lifetime": 60,
+        "damage": 14,
+        "width": 10,
+        "height": 14,
+        "speed": 6,
+        "lifetime": 30,
         "spawnBullets": [
           {
           "type": "MissileBulletType",
