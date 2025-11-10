@@ -1,0 +1,98 @@
+{
+  "type": "mech",
+  "name": "Torment",
+  "description": "Shoots precise electrical shots at ground targets over a large area and lobs laser bombs around it. Rapidly shocks units in range. Custom boss made for Stained Mountains",
+  "speed": 0.12,
+  "health": 5500,
+  "hitSize": 24,
+  "armor": 9,
+  "abilities": [
+    {
+      "type": "EnergyFieldAbility",
+      "damage": 14,
+      "reload": 6,
+      "maxTargets": 1,
+      "range": 80,
+    },
+    ],
+  "weapons": [
+    {
+      "name": "Torment-weapon",
+      "reload": 80,
+      "x": 13,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 75,
+        "width": 12,
+        "height": 36,
+        "speed": 4,
+        "lifetime": 60,
+        "frontColor": "e55454",
+        "backColor": "a73e3e",
+        "collidesAir": false,
+        "fragOnHit": true,
+        "despawnHit": true,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "BulletType",
+          "speed": 0,
+          "collides": false,
+          "hittable": false,
+          "lifetime": 40,
+          "trailInterval": 3,
+          "trailEffect": {
+            "type": "ExplosionEffect",
+            "waveStroke": 0,
+            "smokes": 0,
+            "sparks": 2,
+            "sparkColor": "e55454"
+          },
+          "bulletInterval": 1,
+          "intervalBullet": {
+            "type": "LightningBulletType",
+            "damage": 14,
+            "lightningColor": "e55454",
+            "lightningLength": 10,
+          },
+        },
+      },
+    },
+    {
+      "reload": 600,
+      "x": 0,
+      "mirror": false,
+      "alwaysShoot": true,
+      "inaccuracy": 360,
+      "velocityRnd": 0.5,
+      "shoot": {
+        "shotDelay": 300
+      },
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "splashDamage": 175,
+        "splashDamageRadius": 80,
+        "width": 8,
+        "height": 8,
+        "lifetime": 240,
+        "speed": 0.4,
+        "fragBullet": 6,
+        "fragSpread": 60,
+        "fragOffsetMax": 0,
+        "fragRandomSpread": 0,
+        "fragBullet":{
+          "type": "LaserBulletType",
+          "damage": 175,
+          "sideAngle": 30,
+          "sideWidth": 0.5,
+          "sideLength": 70,
+          "length": 400,
+          "color": [
+            "ffa697",
+            "e55454",
+            "fffffff"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "naval",
+  "name": "Excruciate",
+  "description": "Shoots big laser beams and charges powerful electric arcs. Spawns multiple modified spirit drones. Custom boss made for Coastline",
+  "speed": 0.4,
+  "health": 7500,
+  "hitSize": 36,
+  "armor": 10,
+  "faceTarget": false,
+  "weapons": [
+    {
+      "name": "Excruciate-plasma-mount",
+      "x": 6,
+      "y": 8,
+      "mirror": true,
+      "rotate": true,
+      "reload": 26,
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "damage": 36,
+        "knockback": 0.6,
+        "width": 2,
+        "height": 6,
+        "speed": 6,
+        "accel": 0.01,
+        "lifetime": 30,
+        "backColor": "a73e3e",
+        "frontColor": "e55454",
+      }
+    },
+    {
+      "name": "Excruciate-plasma-mount",
+      "x": 6,
+      "y": -8,
+      "mirror": true,
+      "rotate": true,
+      "reload": 24,
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "damage": 36,
+        "knockback": 0.6,
+        "width": 2,
+        "height": 6,
+        "speed": 6,
+        "accel": 0.01,
+        "lifetime": 30,
+        "backColor": "a73e3e",
+        "frontColor": "e55454",
+      }
+    },
+    {
+      "name": "Excruciate-shocker-mount",
+      "rotate": true,
+      "mirror": false,
+      "rotateSpeed": 1.2,
+      "reload": 300,
+      "chargeEffect": "greenLaserChargeSmall",
+      "shoot": {
+        "shots": 90,
+        "shotDelay": 0.5,
+        "firstShotDelay": 40,
+      },
+      "y": -6,
+      "x": 0,
+      "bullet": {
+        "type": "LightningBulletType",
+        "lightningDamage": 27,
+        "lightningColor": "e55454",
+        "lightningLength": 40,
+        "lightningCone": 0,
+      }
+    },
+    {
+      "reload": 600,
+      "x": 0,
+      "mirror": false,
+      "alwaysShoot": true,
+      "shootCone": 180,
+      "inaccuracy": 360,
+      "shootEffect": "none",
+      "shoot": {
+        "shots": 6,
+        "shotDelay": 30,
+      },
+      "bullet": {
+        "type": "BulletType",
+        "width": 0,
+        "height": 0,
+        "collides": false,
+        "hittable": false,
+        "speed": 4,
+        "lifetime": 10,
+        "despawnUnit": "Modified-spirit",
+      }
+    }
+  ]
+}
