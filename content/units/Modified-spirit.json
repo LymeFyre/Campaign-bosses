@@ -2,7 +2,7 @@
   "type": "flying",
   "name": "Modified spirit",
   "description": "Aids in combat.",
-  "speed": 0,
+  "speed": 0.5,
   "health": 400,
   "abilities": [
     {
