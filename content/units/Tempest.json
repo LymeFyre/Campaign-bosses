@@ -111,16 +111,14 @@
       "reload": 600,
       "x": 0,
       "mirror": false,
-      "alwaysShoot": true,
+      "alwaysShooting": true,
       "shootStatus": "unmoving",
       "shootStatusDuration": 50,
-      "inaccuracy": 360,
       "shoot": {
         "type": "ShootSpread"
         "spread": 61,
         "shots": 100,
         "shotDelay": 0.5,
-        "firstShotDelay": 300
       },
       "bullet": {
         "type": "BasicBulletType",
