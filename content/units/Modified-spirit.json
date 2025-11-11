@@ -3,19 +3,19 @@
   "name": "Modified spirit",
   "description": "Aids in combat.",
   "speed": 0,
-  "health": 700,
+  "health": 400,
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "sides": 3,
-      "max": 150,
+      "sides": 4,
+      "max": 250,
     }
     ]
   "hitSize": 5,
   "isEnemy": false,
   "flying": true,
   "faceTarget": true,
-  "circleTarget": true,
+  "defaultController": "DefenderAI",
   "weapons": [
     {
       "reload": 50,
@@ -23,6 +23,7 @@
       "mirror": false,
         "bullet": {
         "type": "LaserBoltBulletType",
+        "speed": 3.5,
       },
     },
   ]
