@@ -64,9 +64,11 @@
     {
       "reload": 200,
       "mirror": false,
+      "y": 8,
+      "x": 0,
       "shoot": {
         "type": "ShootSpread",
-        "spread": 10,
+        "spread": 15,
         "shots": 5,
       },
       "bullet": {
