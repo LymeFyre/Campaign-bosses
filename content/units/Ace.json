@@ -4,21 +4,21 @@
   "description": "Shoots regular bullets and shattering bullets. Periodically releases a flurry of missiles. Custom boss made for Craters",
   "flying": true,
   "speed": 0.25,
-  "health": 1800,
+  "health": 3000,
   "hitSize": 18,
   "armor": 3,
   "range": 180,
   "weapons": [
     {
       "name": "Ace-weapon",
-      "reload": 55,
+      "reload": 40,
       "y": 4,
       "x": 0,
       "shootCone": 35,
       "top": false
       "shoot": {
-        "shots": 7,
-        "shotDelay": 33,
+        "shots": 8,
+        "shotDelay": 15,
       }
       "inaccuracy": 20,
       "mirror": false,
@@ -51,7 +51,7 @@
     {
       "name": "mount-weapon",
       "reload": 9,
-      "x": 6,
+      "x": 7,
       "y": 3,
       "bullet": {
         "type": "BasicBulletType",
@@ -62,6 +62,34 @@
         "lifetime": 60,
       },
     },
+    {
+      "name": "mount-weapon",
+      "reload": 13,
+      "x": 14,
+      "y": 2,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 2.5,
+        "damage": 12,
+        "width": 7.5,
+        "height": 9.5,
+        "lifetime": 60,
+      },
+    }
+    {
+      "name": "mount-weapon",
+      "reload": 17,
+      "x": 6,
+      "y": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 2.5,
+        "damage": 12,
+        "width": 7.5,
+        "height": 9.5,
+        "lifetime": 60,
+      },
+    }
     {
       "reload": 600,
       "x": 0,

@@ -3,16 +3,17 @@
   "name": "Ruination",
   "description": "Sprays a barrage of large missiles that burst into slag and a stream of heavy bullets. Occasionally blinks forward with the help of phase technology. Custom boss made for Tar Fields",
   "flying": true,
-  "speed": 0.3,
-  "health": 8000,
+  "speed": 0.09,
+  "health": 13000,
   "hitSize": 32,
   "armor": 3,
   "weapons": [
     {
-      "reload": 140,
+      "reload": 120,
       "x": 12,
       "mirror": true,
       "shoot": {
+        "type": "ShootSpread"
         "shots": 7,
         "spread": 10,
       }
@@ -20,6 +21,7 @@
         "type": "MissileBulletType",
         "damage": 24,
         "splashDamage": 24,
+        "splashDamageRadius": 44,
         "width": 12,
         "height": 16,
         "speed": 3,
@@ -49,7 +51,7 @@
       },
     },
     {
-      "reload": 6,
+      "reload": 5,
       "x": 0,
       "y": 8,
       "inaccuracy": 1,
@@ -59,8 +61,8 @@
         "type": "BasicBulletType",
         "speed": 5,
         "damage": 37,
-        "width": 10,
-        "height": 12,
+        "width": 24,
+        "height": 28,
         "lifetime": 35,
       },
     },
@@ -75,7 +77,7 @@
       },
       "bullet": {
         "type": "EmptyBulletType",
-        "recoil": -100,
+        "recoil": -7,
       }
     }
   ]

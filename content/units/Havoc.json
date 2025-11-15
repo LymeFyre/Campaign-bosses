@@ -1,25 +1,25 @@
 {
   "type": "mech",
   "name": "Havoc",
-  "description": "Shoots front bullets and flanking missiles. Occasionally bursts into bullets. Custom boss made for Ground Zero",
+  "description": "Rapidly shoots bullets and missiles. Occasionally bursts into bullets. Custom boss made for Ground Zero",
   "speed": 0.23,
-  "health": 1150,
+  "health": 1350,
   "hitSize": 16,
   "armor": 2,
   "range": 180,
   "weapons": [
     {
       "name": "Havoc-weapon",
-      "reload": 240,
+      "reload": 160,
       "x": 4,
       "top": false,
       "shoot": {
-        "shots": 24,
-        "shotDelay": 4,
+        "shots": 16,
+        "shotDelay": 5,
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 14,
+        "damage": 18,
         "width": 10,
         "height": 14,
         "speed": 6,
@@ -27,7 +27,7 @@
         "spawnBullets": [
           {
           "type": "MissileBulletType",
-          "splashDamage": 12,
+          "splashDamage": 14,
           "speed": 3,
           "lifetime": 90,
           "homingDelay": 10,
@@ -36,9 +36,16 @@
           "frontColor": "fff8e8",
           "backColor": "f9c27a",
           "trailColor": "fff8e8",
-          "angleOffset": 180,
-          "createChance": 0.34,
           },
+          {
+            "type": "BasicBulletType",
+            "damage": 18,
+            "width": 10,
+            "height": 14,
+            "speed": 5,
+            "lifetime": 15,
+            "angleOffset": 180,
+          }
         ],
       },
     },
@@ -68,7 +75,7 @@
         "homingDelay": 29,
         "fragOnHit": false,
         "fragBullets": 1,
-        "fragRandomSpread": 360,
+        "fragRandomSpread": 0,
         "fragVelocityMin": 1,
         "fragBullet": {
           "type": "BasicBulletType",
