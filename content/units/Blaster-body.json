@@ -6,6 +6,7 @@
   "health": 1800,
   "hitSize": 24,
   "targetAir": false,
+  "hidden": true,
   "abilities": [
     {
       "type": "ShieldRegenFieldAbility",

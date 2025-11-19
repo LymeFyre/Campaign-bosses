@@ -2,10 +2,11 @@
   "type": "mech",
   "name": "Class B Destroyer",
   "description": "Extremely armored and armed but loses power as it gets damaged and weak air defense. Custom boss made for Testing Grounds",
-  "speed": 0.35,
+  "speed": 0.25,
   "health": 5000,
   "hitSize": 32,
   "targetAir": false,
+  "hidden": true,
   "abilities": [
     {
       "type": "SpawnDeathAbility",

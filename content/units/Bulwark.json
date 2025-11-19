@@ -2,8 +2,8 @@
   "type": "mech",
   "name": "Bulwark",
   "description": "Lobs cluster bombs and spawns mini crawlers. Custom boss made for Ruinous Shores",
-  "speed": 0.12,
-  "health": 5000,
+  "speed": 0.16,
+  "health": 4000,
   "hitSize": 20,
   "targetAir": false,
   "armor": 8,
@@ -36,6 +36,7 @@
           "speed": 3,
           "lifetime": 90,
           "collides": true,
+          "collidesTiles": true,
           "fragBullet": {
             "type": "FlakBulletType",
             "speed": 2,
@@ -62,14 +63,14 @@
       },
     },
     {
-      "reload": 600,
+      "reload": 720,
       "x": 0,
       "mirror": false,
       "alwaysShooting": true,
       "inaccuracy": 360,
       "shoot": {
-        "shots": 10,
-        "shotDelay": 25,
+        "shots": 8,
+        "shotDelay": 20,
       },
       "velocityRnd": 0.25,
       "bullet": {

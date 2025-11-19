@@ -3,7 +3,7 @@
   "name": "Scheme",
   "description": "Sprays close range spore bombs to ground targets and shoots down air targets. Manufactures Delta bomber drones. Custom boss made for Biomass Synthesis Facility",
   "speed": 0.21,
-  "health": 4250,
+  "health": 3750,
   "hitSize": 18,
   "rotateSpeed": 6,
   "armor": 6,
@@ -24,7 +24,7 @@
     {
       "type": "UnitSpawnAbility",
       "unit": "Delta",
-      "spawnTime": "450",
+      "spawnTime": "360",
     },
     ],
   "weapons": [
@@ -35,8 +35,8 @@
       "mirror": false,
       "inaccuracy": 35,
       "shoot": {
-        "shots": 18,
-        "shotDelay": 3,
+        "shots": 20,
+        "shotDelay": 2,
       },
       "bullet": {
         "type": "BasicBulletType",
@@ -48,7 +48,7 @@
         "height": 16,
         "shrinkY": 0.3,
         "shrinkX": 0.3,
-        "speed": 8,
+        "speed": 12,
         "drag": 0.1,
         "lifetime": 50,
         "hitEffect": "explosion",

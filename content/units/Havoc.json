@@ -2,24 +2,24 @@
   "type": "mech",
   "name": "Havoc",
   "description": "Rapidly shoots bullets and missiles. Occasionally bursts into bullets. Custom boss made for Ground Zero",
-  "speed": 0.23,
-  "health": 1350,
+  "speed": 0.29,
+  "health": 1500,
   "hitSize": 16,
   "armor": 2,
   "range": 180,
   "weapons": [
     {
       "name": "Havoc-weapon",
-      "reload": 160,
+      "reload": 150,
       "x": 4,
       "top": false,
       "shoot": {
-        "shots": 16,
+        "shots": 12,
         "shotDelay": 5,
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 18,
+        "damage": 21,
         "width": 10,
         "height": 14,
         "speed": 6,
@@ -28,7 +28,7 @@
           {
           "type": "MissileBulletType",
           "splashDamage": 14,
-          "speed": 3,
+          "speed": 2,
           "lifetime": 90,
           "homingDelay": 10,
           "homingPower": 0.3,
@@ -50,7 +50,7 @@
       },
     },
     {
-      "reload": 600,
+      "reload": 200,
       "x": 0,
       "mirror": false,
       "alwaysShooting": true,
@@ -62,7 +62,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 36,
+        "damage": 27,
         "width": 10,
         "height": 12,
         "speed": 3,
@@ -79,7 +79,7 @@
         "fragVelocityMin": 1,
         "fragBullet": {
           "type": "BasicBulletType",
-          "damage": 27,
+          "damage": 21,
           "width": 9,
           "height": 11,
           "speed": 4.5,
