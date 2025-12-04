@@ -1,24 +1,24 @@
 {
   "type": "flying",
   "name": "Ace",
-  "description": "Shoots regular bullets and shattering bullets. Periodically releases a flurry of missiles. Custom boss made for Craters",
+  "description": "Rapidly sprays shattering metaglass bullets at targets and releases a flurry of missiles and bullets. Custom boss made for Craters",
   "flying": true,
   "speed": 0.25,
-  "health": 3250,
+  "health": 2750,
   "hitSize": 18,
   "armor": 3,
   "range": 180,
   "weapons": [
     {
       "name": "Ace-weapon",
-      "reload": 35,
+      "reload": 60,
       "y": 4,
       "x": 0,
       "shootCone": 35,
       "top": false
       "shoot": {
-        "shots": 8,
-        "shotDelay": 20,
+        "shots": 18,
+        "shotDelay": 25,
       }
       "inaccuracy": 20,
       "mirror": false,
@@ -49,49 +49,7 @@
       },
     },
     {
-      "name": "mount-weapon",
-      "reload": 9,
-      "x": 7,
-      "y": 3,
-      "bullet": {
-        "type": "BasicBulletType",
-        "speed": 2.5,
-        "damage": 12,
-        "width": 7.5,
-        "height": 9.5,
-        "lifetime": 60,
-      },
-    },
-    {
-      "name": "mount-weapon",
-      "reload": 13,
-      "x": 14,
-      "y": 2,
-      "bullet": {
-        "type": "BasicBulletType",
-        "speed": 2.5,
-        "damage": 12,
-        "width": 7.5,
-        "height": 9.5,
-        "lifetime": 60,
-      },
-    }
-    {
-      "name": "mount-weapon",
-      "reload": 17,
-      "x": 21,
-      "y": 1,
-      "bullet": {
-        "type": "BasicBulletType",
-        "speed": 2.5,
-        "damage": 12,
-        "width": 7.5,
-        "height": 9.5,
-        "lifetime": 60,
-      },
-    }
-    {
-      "reload": 450,
+      "reload": 420,
       "x": 0,
       "mirror": false,
       "alwaysShooting": true,
@@ -121,6 +79,29 @@
         "keepVelocity": false,
         "weaveScale": 10,
         "weaveMag": 1,
+      }
+    },
+    {
+      "reload": 240,
+      "x": 0,
+      "mirror": false,
+      "alwaysShooting": true,
+      "shoot":{
+        "type": "ShootSpread",
+        "spread": 22.5,
+        "shots": 16,
+        "firstShotDelay": 300,
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 27,
+        "width": 9,
+        "height": 11,
+        "speed": 3,
+        "lifetime": 100,
+        "homingPower": 1,
+        "homingRange": 160,
+        "homingDelay": 20,
       }
     }
   ]
